@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<!--HERE IS WHERE YOU PASTE THE CODE FROM BOOTSTRAP NAVBAR OR LAYOUT DESIGN-->
+<body> 
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,12 +20,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">[ LoadAp! ]</a>
+      <%= link_to "[ LoadAp! ]",root_path, class: "navbar-brand" %> <!--MAKES BRAND NAME CLICKABLE TO ROOT_PATH-->
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-      </ul>     
+      </ul> <!--This is the navbar buttons-->    
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "[ Home ]", root_path %></li>
         <li><%= link_to "[ About ]", about_path %></li>
@@ -34,6 +35,10 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<!--HERE IS WHERE YOU PASTE THE CODE FROM BOOTSTRAP NAVBAR OR LAYOUT DESIGN-->
+
+<!--This class container moves the text from STARUP page out of leftside "blank page"-->
 	<div class="container">
   		<%= yield %>
 	</div>
