@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   
   root 'pages#home'
+  
   get 'home' => 'pages#home'
   get 'about' => 'pages#about'
   get 'info' => 'pages#info'
   get 'emailus' => 'pages#emailus'
+  get 'login' => 'pages#login'
 
 
 
