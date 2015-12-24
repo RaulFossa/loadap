@@ -19,7 +19,7 @@ gem 'simple_form'
 
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # AFTER THIS ADD .> git COMMIT -am " " > RUN BUNDLE INSTALL --without production >enter
 	gem 'byebug'
 	gem 'sqlite3'
 end
