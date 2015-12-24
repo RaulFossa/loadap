@@ -2,13 +2,14 @@ class PagesController < ApplicationController
   def home
   end
 
+  def code
+  end
+
   def about
   end
 
-  def info
+  def login
   end
 
-  def emailus
-  end
 end
 
